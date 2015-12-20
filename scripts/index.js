@@ -1,5 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './app';
 import data from './data';
 
-React.render(<App datasets={data}/>, document.getElementById('root'));
+ReactDOM.render(<App datasets={data}/>, document.getElementById('root'));

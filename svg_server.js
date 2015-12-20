@@ -1,8 +1,8 @@
-require("babel/register");
+require("babel-register");
 var express = require('express');
 var app = express();
-var data = require('./scripts/data');
-var svgRenderer = require('./scripts/svg_renderer');
+var data = require('./scripts/data').default;
+var svgRenderer = require('./scripts/svg_renderer').default;
 
 app.get('/svg', function (req, res) {
   var svg = svgRenderer(data[0]);
