@@ -1,7 +1,7 @@
 Generating SVG With React
 =====================
 
-Sample code for my Smashing Magazine article.
+Sample code for my Smashing Magazine article: [Generating SVG With React](http://www.smashingmagazine.com/2015/12/generating-svg-with-react).
 
 ### Usage
 
