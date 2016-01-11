@@ -2,7 +2,7 @@ import React from 'react';
 import Graph from './components/graph'
 
 export default class App extends React.Component {
-  state = { dataSetIndex: 0 }
+  state = { dataSetIndex: 0 };
 
   selectDataset(event) {
     this.setState({dataSetIndex: event.target.value});
